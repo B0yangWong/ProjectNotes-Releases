@@ -7,7 +7,7 @@
 <p align="center">打开项目，接着上次的位置写；需要安静时，一键进入专注模式。</p>
 
 <p align="center">
-  <a href="https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.1/ProjectNotes-0.6.1-macOS-universal.zip">下载 Mac 版</a> |
+  <a href="https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.2/ProjectNotes-0.6.2-macOS-universal.zip">下载 Mac 版</a> |
   <a href="INSTALL.md">安装说明</a> |
   <a href="PRIVACY.md">隐私说明</a> |
   <a href="README.md">English</a>
@@ -19,7 +19,7 @@
 
 本仓库只提供应用下载、使用文档和虚构示例截图，**不公开应用源码**。请下载 Releases 中的应用 ZIP；GitHub 自动生成的“Source code”压缩包只是本仓库的文档，不是安装包。
 
-**0.6.1 预览版：最低构建目标为 macOS 14，通用安装包包含 Apple 芯片与 Intel 架构。** 已在开发用 Apple 芯片 Mac 上检查；Intel 真机、较旧的 macOS 和另一台全新 Mac 的首次安装尚未实测。应用采用临时本地签名，没有 Apple 开发者身份签名或公证，首次打开可能被系统拦截，详见[安装说明](INSTALL.md)。
+**0.6.2 预览版：最低构建目标为 macOS 14，通用安装包包含 Apple 芯片与 Intel 架构。** 已在开发用 Apple 芯片 Mac 上检查；Intel 真机、较旧的 macOS 和另一台全新 Mac 的首次安装尚未实测。应用采用临时本地签名，没有 Apple 开发者身份签名或公证，首次打开可能被系统拦截，详见[安装说明](INSTALL.md)。
 
 ## 主要功能
 
@@ -39,7 +39,7 @@
 
 ## 界面预览
 
-截图来自实际的 0.6.1 下载版，使用独立资料库和虚构项目、示例文字，不含私人笔记。新安装的应用不附带这些示例。
+截图来自实际的 0.6.1 应用界面（0.6.2 布局未改动），使用独立资料库和虚构项目、示例文字，不含私人笔记。新安装的应用不附带这些示例。
 
 <p align="center"><img src="images/home-en.jpg" width="1080" alt="项目首页、继续编辑与最近笔记"></p>
 
@@ -56,7 +56,7 @@
 
 ## 安装与开始使用
 
-1. 从[版本发布页](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.1)下载 `ProjectNotes-0.6.1-macOS-universal.zip`。
+1. 从[版本发布页](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.2)下载 `ProjectNotes-0.6.2-macOS-universal.zip`。
 2. 解压，将 `ProjectNotes.app` 拖入“应用程序”。无需安装 Xcode、Node.js 或其他运行环境。
 3. 打开应用。如果 macOS 提示开发者无法验证，请先确认下载来源和是否信任，再按 [Apple 官方说明](https://support.apple.com/zh-cn/102445)在系统设置中手动允许。若系统提示会损害电脑或文件已损坏，请停止打开并反馈；不要关闭系统安全检查或运行移除隔离标记的命令。
 4. 新建项目，再新建笔记。默认界面为中文，可在“设置 → 语言”切换 English。

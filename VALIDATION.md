@@ -2,7 +2,13 @@
 
 This preview has been checked on the development Apple silicon Mac running macOS 27.2. A successful build is not a claim that every supported Mac or first-download security flow has been tested.
 
-## Checks for This Public Download
+## 0.6.2 Maintenance Checks
+
+- Upgraded KaTeX from 0.16.47 to the upstream patched 0.18.2 release. Current runtime dependency audit reports zero known advisories across 49 packages. This is a point-in-time check.
+- New trust-boundary regression tests cover inherited options/prototype settings, dangerous links, external image directives, and ordinary fraction/root/matrix rendering. Existing editor tooling and browser regression suites pass, including offline rendering and document-format checks.
+- The detailed first-install, save/reopen, backup, and PDF checks below were performed on 0.6.1. For 0.6.2, the Universal app, packaged resources, formula display, and archive/signature/privacy checks are repeated. Screenshots remain from the identical 0.6.1 layout.
+
+## Original Public-Packaging Checks (0.6.1)
 
 - Optimized Universal build with native `arm64` and `x86_64` slices. Both executable slices have a macOS 14.0 minimum target.
 - The app includes its editor, styles, fonts, formula renderer, icon resources, and license notices. Required libraries are system libraries; no Xcode directory is used as a runtime search path.

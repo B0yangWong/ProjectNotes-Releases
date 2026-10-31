@@ -2,7 +2,7 @@
 
 ## Compatibility
 
-- Download: `ProjectNotes-0.6.1-macOS-universal.zip`.
+- Download: `ProjectNotes-0.6.2-macOS-universal.zip`.
 - Includes native `arm64` and `x86_64` executables for Apple silicon and Intel Macs.
 - Both executable slices have a macOS 14.0 minimum deployment target. This is a build target, not a claim of testing every supported OS.
 - Checked on the development Apple silicon Mac. Intel hardware, older macOS, and a separate clean Mac have not been tested.
@@ -11,7 +11,7 @@
 
 ## Install and First Launch
 
-1. Download the app ZIP from [v0.6.1](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.1). The “Source code” assets are documentation archives, not app installers.
+1. Download the app ZIP from [v0.6.2](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.2). The “Source code” assets are documentation archives, not app installers.
 2. Extract and move `ProjectNotes.app` into Applications. Do not run it from inside the archive. Keep the accompanying notices available in the app's Resources folder.
 3. Open the app. If macOS cannot verify the developer, only proceed if you trust this release. After the first attempt, follow [Apple's manual instructions](https://support.apple.com/en-us/102445) under System Settings → Privacy & Security → Open Anyway, if available. Managed Macs may forbid this. Do not disable Gatekeeper globally or use a script to remove download quarantine.
 4. A warning that the app is damaged or will harm your computer is a reason to stop and report the problem, not an instruction to bypass it.
@@ -24,7 +24,7 @@ The app does not install a background agent, request Accessibility or Screen Rec
 Download `SHA256SUMS.txt` from the same release. In Terminal, change to the download folder and run:
 
 ```sh
-shasum -a 256 ProjectNotes-0.6.1-macOS-universal.zip
+shasum -a 256 ProjectNotes-0.6.2-macOS-universal.zip
 ```
 
 Compare the result with the ZIP's entry in `SHA256SUMS.txt`. This detects disagreement with the published file; it is not a digital signature, security audit, or Apple approval.

@@ -7,7 +7,7 @@
 <p align="center">Keep related notes together, return to your last thought, and make room for longer writing.</p>
 
 <p align="center">
-  <a href="https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.1/ProjectNotes-0.6.1-macOS-universal.zip">Download for Mac</a> |
+  <a href="https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.2/ProjectNotes-0.6.2-macOS-universal.zip">Download for Mac</a> |
   <a href="#features">Features</a> |
   <a href="INSTALL.md">Installation</a> |
   <a href="PRIVACY.md">Privacy</a> |
@@ -20,7 +20,7 @@ Open a project, choose a note, and keep writing. ProjectNotes combines a project
 
 This repository hosts the downloadable app, documentation, and synthetic demo images. Application source code remains private. **Download the app ZIP in Releases; GitHub's automatically generated “Source code” archives contain this documentation, not the application.**
 
-**0.6.1 preview · macOS 14 minimum build target · Universal (Apple silicon + Intel).** The Apple silicon build has been checked on the development Mac; Intel hardware, older macOS versions, and a separate clean-Mac first install have not been tested. The app is ad-hoc signed, without Developer ID signing or Apple notarization. macOS may block the first launch; read [Install and Open](INSTALL.md).
+**0.6.2 preview · macOS 14 minimum build target · Universal (Apple silicon + Intel).** The Apple silicon build has been checked on the development Mac; Intel hardware, older macOS versions, and a separate clean-Mac first install have not been tested. The app is ad-hoc signed, without Developer ID signing or Apple notarization. macOS may block the first launch; read [Install and Open](INSTALL.md).
 
 ## Features
 
@@ -40,7 +40,7 @@ This repository hosts the downloadable app, documentation, and synthetic demo im
 
 ## Preview
 
-These are screenshots of the actual 0.6.1 download build using an isolated library with invented projects and writing samples. They contain no personal notes. Example content is not included in a fresh installation.
+These are screenshots of the actual 0.6.1 build (the layout is unchanged in 0.6.2) using an isolated library with invented projects and writing samples. They contain no personal notes. Example content is not included in a fresh installation.
 
 <p align="center"><img src="images/home-en.jpg" width="1080" alt="ProjectNotes project home with continue writing and recent notes"></p>
 
@@ -57,7 +57,7 @@ These are screenshots of the actual 0.6.1 download build using an isolated libra
 
 ## Install and Open
 
-1. Download [ProjectNotes-0.6.1-macOS-universal.zip](https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.1/ProjectNotes-0.6.1-macOS-universal.zip) from the [0.6.1 release](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.1).
+1. Download [ProjectNotes-0.6.2-macOS-universal.zip](https://github.com/B0yangWong/ProjectNotes-Releases/releases/download/v0.6.2/ProjectNotes-0.6.2-macOS-universal.zip) from the [0.6.2 release](https://github.com/B0yangWong/ProjectNotes-Releases/releases/tag/v0.6.2).
 2. Unzip it and move `ProjectNotes.app` into Applications. No Xcode, Node.js, browser server, or additional runtime is required.
 3. Open the app. If macOS blocks an unverified developer, review the download and decide whether to trust it. Use only the manual exception described in [Apple's instructions](https://support.apple.com/en-us/102445). If the warning says the app will harm your computer or is damaged, stop and report it. Do not disable system security checks or run a quarantine-removal command.
 4. Create a project and add a note. The interface initially uses Chinese; choose **设置 / Settings → 语言 / Language → English** if preferred.
