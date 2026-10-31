@@ -1,0 +1,20 @@
+name: Bug report / 问题反馈
+description: Report a reproducible issue using invented notes / 用虚构内容复现问题
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Do not attach private notes, real libraries/backups, credentials, personal paths, or sensitive screenshots. 本报告公开，请勿上传私人笔记、真实资料库、备份、密钥或个人信息。"
+  - type: input
+    id: version
+    attributes:
+      label: App and macOS version / 应用与系统版本
+      placeholder: ProjectNotes 0.6.1, macOS …, Apple silicon or Intel
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction with invented content / 使用虚构内容复现
+      description: Describe the actions and expected vs actual result. / 写清操作、预期与实际结果。
+    validations:
+      required: true
